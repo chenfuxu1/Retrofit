@@ -13,7 +13,7 @@
 # limitations under the License.
 
 [versions]
-kotlin = "2.0.20"
+kotlin = "1.9.20"
 okhttp = "3.14.9"
 protobuf = "3.25.5"
 robovm = "2.3.14"
@@ -30,6 +30,7 @@ gradleMavenPublishPlugin = "com.vanniktech:gradle-maven-publish-plugin:0.29.0"
 spotlessPlugin = "com.diffplug.spotless:spotless-plugin-gradle:6.25.0"
 
 kotlin-stdLib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlin" }
+kotlin-reflect = { module = "org.jetbrains.kotlin:kotlin-reflect", version.ref = "kotlin" }
 kotlin-gradlePlugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
 kotlin-serializationPlugin = { module = "org.jetbrains.kotlin:kotlin-serialization", version.ref = "kotlin" }
 
@@ -50,7 +51,7 @@ incap-processor = { module = "net.ltgt.gradle.incap:incap-processor", version.re
 autoService-annotations = { module = "com.google.auto.service:auto-service-annotations", version.ref = "autoService" }
 autoService-compiler = { module = "com.google.auto.service:auto-service", version.ref = "autoService" }
 
-kotlinx-coroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version = "1.9.0" }
+kotlinx-coroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version = "1.7.0" }
 kotlinx-serialization-core = { module = "org.jetbrains.kotlinx:kotlinx-serialization-core", version.ref = "kotlinx-serialization" }
 kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinx-serialization" }
 kotlinx-serialization-proto = { module = "org.jetbrains.kotlinx:kotlinx-serialization-protobuf", version.ref = "kotlinx-serialization" }
